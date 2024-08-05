@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dish Delights - Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('best-food-background-5uauuazwteuppuke.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'cursive';
+            color: #FF5733;
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        .meal-photo {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #FF5733;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3d1ed9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dish Delights</h1>
+        <img class="meal-photo" src="Meals-by-Chefkraft.webp" alt="Meal Photo">
+        <form>
+            <input type="text" placeholder="Full Name" name="fullname" required>
+            <input type="text" placeholder="Username" name="username" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <button onclick="location.href='Dashboard.html'" type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="Sign in.html">Sign In</a></p>
+    </div>
+</body>
+</html>
